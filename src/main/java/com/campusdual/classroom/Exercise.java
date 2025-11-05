@@ -6,5 +6,15 @@ public class Exercise {
         Teacher t = new Teacher("Maria", "Montessori", "Educación");
         PoliceOfficer po = new PoliceOfficer("Jake", "Peralta", "B-99");
         Doctor d = new Doctor("Gregory", "House", "Nefrología e Infectología");
+
+        p.getDetails();
+            System.out.println("_________");
+        t.getDetails();
+            System.out.println("_________");
+        po.getDetails();
+            System.out.println("_________");
+        d.getDetails();
+            System.out.println("__________");
     }
+
 }
